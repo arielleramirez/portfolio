@@ -6,7 +6,7 @@ class Resume extends Component {
   render() {
     return (
       <Fragment>
-        <div className="homepagebox">
+        <div className="resumebox">
           <div />
         </div>
       </Fragment>

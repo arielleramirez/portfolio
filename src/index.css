@@ -25,6 +25,7 @@ code {
   width: 100%;
   color: white;
   z-index: -10;
+  position: fixed;
 }
 
 #sidebar ul li {
@@ -58,9 +59,6 @@ code {
   font-size: 4.5vw;
 }
 
-.homepagebox {
-  position: fixed;
-}
 .homepagebox article {
   color: white;
   font-family: "Paytone One", sans-serif;
@@ -73,7 +71,18 @@ code {
   padding-left: 2%;
 }
 
-.homepagebox div {
+.resumebox {
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./images/background.png");
+  background-size: cover;
+  width: 100%;
+  color: white;
+  z-index: -10;
+  position: fixed;
+}
+
+.resumebox div {
   margin: 20px 0 0 30px;
   height: 600px;
   width: 1050px;
