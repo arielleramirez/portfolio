@@ -1,8 +1,16 @@
-import React, { Component } from "react";
+import React, { Component, Fragment } from "react";
+import background from "../images/background.png";
+import NavBar from "../Components/NavBar";
 
 class Resume extends Component {
   render() {
-    return <div>Resume</div>;
+    return (
+      <Fragment>
+        <div className="homepagebox">
+          <div />
+        </div>
+      </Fragment>
+    );
   }
 }
 
