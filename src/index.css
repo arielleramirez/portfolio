@@ -89,6 +89,26 @@ code {
   background-color: white;
 }
 
+.resumebox article {
+  color: black;
+  width: 250px;
+  padding: 10px;
+}
+
+.resumebox article p {
+  color: black;
+  margin: 0 0 0 50px;
+  font-size: 1vw;
+}
+
+.resumebox article h1 {
+  color: black;
+  margin: 0 0 0 50px;
+  font-size: 4vw;
+  line-height: 36px;
+  margin-bottom: 20px;
+}
+
 h1 {
   font-family: "Permanent Marker", cursive;
   color: white;
@@ -96,4 +116,19 @@ h1 {
 
 .green {
   color: #c0ceb2;
+}
+
+.profile {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  border: 6px solid black;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+
+.vline {
+  border-left: 2px solid black;
+  height: 500px;
+  margin-left: 300px;
 }
