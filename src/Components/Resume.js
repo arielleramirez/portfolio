@@ -1,6 +1,5 @@
 import React, { Component, Fragment } from "react";
 import background from "../images/background.png";
-import NavBar from "../Components/NavBar";
 import me from "../images/me.png";
 
 class Resume extends Component {

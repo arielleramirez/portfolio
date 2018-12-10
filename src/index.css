@@ -18,14 +18,12 @@ code {
 }
 
 .homepagebox {
-  min-height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("./images/background.png");
   background-size: cover;
-  width: 100%;
   color: white;
   z-index: -10;
-  position: fixed;
+  position: absolute;
 }
 
 #sidebar ul li {
@@ -67,85 +65,21 @@ code {
   margin-left: 28%;
   font-size: 3.5vw;
   height: 20%;
-  padding-top: 20%;
+  padding-top: 6%;
   padding-left: 2%;
 }
 
-.resumebackgroundimg {
-  min-height: 100vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("./images/background.png");
-  background-size: cover;
-  width: 100%;
-  z-index: -10;
-  position: fixed;
-}
-
-/* .resumebox div {
-  margin: 20px 0 0 30px;
-  width: 1050px;
-  background-color: white;
-  display: flex;
-} */
-
-.flex-container article {
-  color: black;
-  width: 300px;
-  margin-top: 35%;
-  margin-left: -10px;
-}
-
-.flex-container article p {
-  color: black;
-  /* margin: 0 1px 0 1px; */
-  font-size: 1vw;
-  line-height: 15px;
-  width: 400px;
-  /* padding: 0 1px 0 1px; */
-  text-align: left;
-  /* margin-bottom: 15px; */
-}
-
-.flex-container article h1 {
-  color: black;
-  margin-left: -10px;
-  font-size: 4vw;
-  line-height: 36px;
-  margin-bottom: 20px;
-  width: 200px;
-  margin-top: -20px;
-}
-
-.flex-container article h3 {
-  color: black;
-  /* margin: 0 1px 0 1px; */
-  font-size: 2.25vw;
-  line-height: 36px;
-  width: 500px;
-  text-align: left;
-  padding-bottom: 15px;
-  padding-top: 15px;
-  /* padding: 1px 1px 0 1px; */
-}
-
-.flex-container article h4 {
-  color: black;
-  /* margin: 0 1px 0 1px; */
-  font-size: 1.1vw;
-  line-height: 20px;
-  width: 500px;
-  text-align: left;
-  /* padding: 1px 1px 0 1px; */
-}
-
-h1,
-h3 {
+#h1 {
   font-family: "Permanent Marker", cursive;
   color: white;
+  font-size: 7.5vw;
+  margin-left: 5%;
+  margin-top: 2%;
 }
 
-h4 {
+#h4 {
   font-family: "Permanent Marker", cursive;
+  font-size: 5.5vw;
 }
 
 .green {
@@ -169,6 +103,11 @@ h4 {
   height: 500px;
   margin-left: 95%;
   margin-top: 25%;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
 }
 
 /* .vlines {
@@ -197,4 +136,34 @@ h4 {
   height: 100px;
   text-align: center;
   font-size: 30px;
+}
+
+.arrow {
+  width: 45px;
+  margin-left: 50%;
+  margin-top: 5%;
+  opacity: 1;
+}
+.arrow:hover {
+  opacity: 0.5;
+}
+
+.projbox {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 13%;
+  margin-bottom: 10%;
+}
+
+.proj {
+  width: 250px;
+  height: 185px;
+  background-color: black;
+  margin: 20px;
+  opacity: 0.5;
+  transition: 0.3s;
+}
+
+.proj:hover {
+  opacity: 1;
 }
