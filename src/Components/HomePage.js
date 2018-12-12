@@ -57,7 +57,7 @@ class HomePage extends Component {
                 src={erin}
               />
               <a href="https://arcalcapp.herokuapp.com/" target="_blank">
-                <img className="proj" onClick={this.toggle} src={calculator} />
+                <img className="proj" src={calculator} />
               </a>
               <div className="proj" />
               <div className="proj" />
@@ -76,7 +76,8 @@ class HomePage extends Component {
               <div
                 style={{
                   marginLeft: "45%",
-                  paddingTop: 30
+                  paddingTop: 30,
+                  marginTop: 60
                 }}
               >
                 <a
