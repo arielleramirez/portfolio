@@ -75,7 +75,7 @@ class HomePage extends Component {
             >
               <div
                 style={{
-                  marginLeft: 490,
+                  marginLeft: "35%",
                   paddingTop: 30
                 }}
               >
@@ -84,7 +84,7 @@ class HomePage extends Component {
                   target="_blank"
                 >
                   <img
-                    style={{ width: 50, paddingLeft: "30%", paddingRight: 5 }}
+                    style={{ width: 50, paddingLeft: "5", paddingRight: 5 }}
                     src={linkedin}
                   />
                 </a>
