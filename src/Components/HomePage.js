@@ -75,7 +75,7 @@ class HomePage extends Component {
             >
               <div
                 style={{
-                  marginLeft: "45%",
+                  marginLeft: "50%",
                   paddingTop: 30
                 }}
               >
