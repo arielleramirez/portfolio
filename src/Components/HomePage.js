@@ -40,8 +40,7 @@ class HomePage extends Component {
             style={{
               width: "100%",
               height: "100vh",
-              backgroundColor: "white",
-              marginTop: 50
+              backgroundColor: "white"
             }}
           >
             <div className="projbox">
