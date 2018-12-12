@@ -153,6 +153,7 @@ code {
   display: flex;
   flex-wrap: wrap;
   margin-left: 15%;
+  maring-top: 10%;
   margin-bottom: 10%;
   width: 80%;
 }
