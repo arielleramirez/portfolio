@@ -157,7 +157,7 @@ code {
 
 .proj {
   width: 70%;
-  height: 70%;
+  height: 70px;
   background-color: black;
   margin: 20px;
   opacity: 0.5;
