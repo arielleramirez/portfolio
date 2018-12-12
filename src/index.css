@@ -24,6 +24,7 @@ code {
   color: white;
   z-index: -10;
   position: absolute;
+  height: 100vh;
 }
 
 #sidebar ul li {
@@ -140,7 +141,7 @@ code {
 
 .arrow {
   width: 45px;
-  margin-left: 55%;
+  margin-left: 50%;
   margin-top: 5%;
   opacity: 1;
 }
