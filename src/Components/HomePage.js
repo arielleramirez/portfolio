@@ -41,8 +41,7 @@ class HomePage extends Component {
               width: "100%",
               height: "100vh",
               backgroundColor: "white",
-              marginTop: 50,
-              paddingTop: 40
+              marginTop: 50
             }}
           >
             <div className="projbox">
@@ -58,7 +57,9 @@ class HomePage extends Component {
                 onClick={this.toggle}
                 src={erin}
               />
-              <img className="proj" onClick={this.toggle} src={calculator} />
+              <a href="https://arcalcapp.herokuapp.com/" target="_blank">
+                <img className="proj" onClick={this.toggle} src={calculator} />
+              </a>
               <div className="proj" />
               <div className="proj" />
               <div className="proj" />
