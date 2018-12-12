@@ -151,7 +151,7 @@ code {
 .projbox {
   display: flex;
   flex-wrap: wrap;
-  margin-left: 13%;
+  margin-left: 15%;
   margin-bottom: 10%;
   width: 80%;
 }
