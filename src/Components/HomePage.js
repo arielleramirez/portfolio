@@ -84,7 +84,7 @@ class HomePage extends Component {
                   target="_blank"
                 >
                   <img
-                    style={{ width: 50, paddingLeft: "50%", paddingRight: 5 }}
+                    style={{ width: 50, paddingLeft: "35%", paddingRight: 5 }}
                     src={linkedin}
                   />
                 </a>
