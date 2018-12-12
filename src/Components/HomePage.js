@@ -8,6 +8,7 @@ import instagram from "../images/instagram.png";
 import parkit from "../images/parkit.png";
 import erin from "../images/erinsport.png";
 import gmail from "../images/gmail.png";
+import calculator from "../images/calculator.png";
 import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from "reactstrap";
 
 class HomePage extends Component {
@@ -57,7 +58,7 @@ class HomePage extends Component {
                 onClick={this.toggle}
                 src={erin}
               />
-              <div className="proj" />
+              <img className="proj" onClick={this.toggle} src={calculator} />
               <div className="proj" />
               <div className="proj" />
               <div className="proj" />

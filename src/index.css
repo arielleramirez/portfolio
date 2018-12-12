@@ -162,6 +162,7 @@ code {
   margin: 20px;
   opacity: 0.5;
   transition: 0.3s;
+  border: 1px solid darkgray;
 }
 
 .proj:hover {
