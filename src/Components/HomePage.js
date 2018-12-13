@@ -50,7 +50,9 @@ class HomePage extends Component {
               >
                 <img className="proj" value="parkit" src={parkit} />
               </a>
-              <img className="proj" src={erin} />
+              <a href="laguerrafilm.com" target="_blank">
+                <img className="proj" src={erin} />
+              </a>
               <a href="https://arcalcapp.herokuapp.com/" target="_blank">
                 <img className="proj" src={calculator} />
               </a>
