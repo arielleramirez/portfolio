@@ -44,18 +44,13 @@ class HomePage extends Component {
             }}
           >
             <div className="projbox">
-              <img
-                className="proj"
-                value="parkit"
-                onClick={this.toggle}
-                src={parkit}
-              />
-              <img
-                className="proj"
-                value="parkit"
-                onClick={this.toggle}
-                src={erin}
-              />
+              <a
+                href="https://www.youtube.com/watch?v=VdENh6TLo9U&t=1s"
+                target="_blank"
+              >
+                <img className="proj" value="parkit" src={parkit} />
+              </a>
+              <img className="proj" src={erin} />
               <a href="https://arcalcapp.herokuapp.com/" target="_blank">
                 <img className="proj" src={calculator} />
               </a>
