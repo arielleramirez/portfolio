@@ -9,6 +9,8 @@ import parkit from "../images/parkit.png";
 import erin from "../images/erinsport.png";
 import gmail from "../images/gmail.png";
 import calculator from "../images/calculator.png";
+import rogue from "../images/rogue.png";
+
 import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from "reactstrap";
 
 class HomePage extends Component {
@@ -56,7 +58,10 @@ class HomePage extends Component {
               <a href="https://arcalcapp.herokuapp.com/" target="_blank">
                 <img className="proj" src={calculator} />
               </a>
-              <div className="proj" />
+
+              <a href="https://rougepickings.herokuapp.com/" target="_blank">
+                <img className="proj" src={rogue} />
+              </a>
               <div className="proj" />
               <div className="proj" />
               <div className="proj" />
