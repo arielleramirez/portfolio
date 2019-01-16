@@ -164,6 +164,7 @@ div h2 {
   line-height: 6vw;
   color: #ffdedc;
   width: 60vw;
+  padding: 2%;
 }
 
 .flex-container {
@@ -177,6 +178,6 @@ div h2 {
   height: 30vh;
   margin: 2%;
   text-align: center;
-  line-height: 75px;
-  font-size: 30px;
+  line-height: 15vw;
+  font-size: 2vw;
 }
