@@ -5,7 +5,7 @@ class Projects extends Component {
     return (
       <div>
         <h2>Projects Page</h2>
-        <div class="flex-container">
+        <div class="flex-box">
           <div>1</div>
           <div>2</div>
           <div>3</div>

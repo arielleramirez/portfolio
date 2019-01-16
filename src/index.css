@@ -167,12 +167,12 @@ div h2 {
   padding: 2%;
 }
 
-.flex-container {
+.flex-box {
   display: flex;
   flex-wrap: wrap;
 }
 
-.flex-container > div {
+.flex-box > div {
   background-color: #f1f1f1;
   width: 45%;
   height: 30vh;
