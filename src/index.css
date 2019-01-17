@@ -49,8 +49,8 @@
   animation-fill-mode: forwards;
   position: relative;
   width: 30vw;
-  margin-right: 100%;
-  margin-top: 5%;
+  margin-right: 250%;
+  margin-top: 3.5%;
 }
 
 .hamburger {
@@ -82,6 +82,7 @@ div h1 {
   line-height: 6vw;
   color: #ffdedc;
   width: 40vw;
+  margin-left: -25%;
 }
 
 @keyframes heading {
