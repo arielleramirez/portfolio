@@ -83,6 +83,7 @@ div h1 {
   color: #ffdedc;
   width: 40vw;
   margin-left: -25%;
+  padding-bottom: 20%;
 }
 
 @keyframes heading {
