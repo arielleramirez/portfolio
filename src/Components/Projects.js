@@ -7,7 +7,7 @@ class Projects extends Component {
         <div className="flex-container">
           <div className="box3">
             <div>
-              <h1>Projects</h1>
+              <h2>Projects</h2>
             </div>
           </div>
           <div className="box4">
