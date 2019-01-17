@@ -28,7 +28,7 @@
   animation-duration: 2s;
   animation-fill-mode: forwards;
   position: relative;
-  width: 60vw;
+  width: 30vw;
   margin-right: 250%;
   margin-top: 5%;
 }
@@ -38,7 +38,7 @@
   animation-duration: 2s;
   animation-fill-mode: forwards;
   position: relative;
-  width: 60vw;
+  width: 30vw;
   margin-left: 5%;
   margin-top: 5%;
 }
@@ -48,8 +48,8 @@
   animation-duration: 2s;
   animation-fill-mode: forwards;
   position: relative;
-  width: 60vw;
-  margin-right: 50%;
+  width: 30vw;
+  margin-right: 100%;
   margin-top: 5%;
 }
 
@@ -81,7 +81,7 @@ div h1 {
   font-size: 10vw;
   line-height: 6vw;
   color: #ffdedc;
-  width: 60vw;
+  width: 40vw;
 }
 
 @keyframes heading {
