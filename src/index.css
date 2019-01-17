@@ -33,6 +33,26 @@
   margin-top: 5%;
 }
 
+.box3 {
+  animation: heading;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  position: relative;
+  width: 60vw;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+
+.box4 {
+  animation: arrow;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  position: relative;
+  width: 60vw;
+  margin-right: 50%;
+  margin-top: 5%;
+}
+
 .hamburger {
   margin-left: 93%;
   margin-top: -14%;
@@ -131,6 +151,36 @@ div .container {
   border-bottom: 5px solid #a9b7af;
 }
 
+.triangle3 {
+  margin: 0;
+  left: 0;
+  right: 0;
+  width: 5vw;
+  height: 5vw;
+  transform: rotate(315deg);
+  -webkit-transform: rotate(315deg);
+  -moz-transform: rotate(315deg);
+  -o-transform: rotate(315deg);
+  -ms-transform: rotate(315deg);
+  border-right: 5px solid #c7d2c7;
+  border-bottom: 5px solid #c7d2c7;
+}
+
+.triangle4 {
+  margin: 0;
+  left: 0;
+  right: 0;
+  width: 5vw;
+  height: 5vw;
+  transform: rotate(315deg);
+  -webkit-transform: rotate(315deg);
+  -moz-transform: rotate(315deg);
+  -o-transform: rotate(315deg);
+  -ms-transform: rotate(315deg);
+  border-right: 5px solid #a9b7af;
+  border-bottom: 5px solid #a9b7af;
+}
+
 .flex-container {
   display: flex;
   flex-wrap: nowrap;
@@ -147,6 +197,14 @@ div .triangle1 {
 }
 
 div .triangle2 {
+  margin-left: 20%;
+}
+
+div .triangle3 {
+  margin-left: 30%;
+}
+
+div .triangle4 {
   margin-left: 20%;
 }
 
