@@ -322,3 +322,10 @@ div .triangle4 {
 .icons img {
   width: 25%;
 }
+
+.profile {
+  width: 30%;
+  border-radius: 50%;
+  margin-top: -125%;
+  margin-right: 200%;
+}

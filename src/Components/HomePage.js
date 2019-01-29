@@ -49,7 +49,7 @@ class HomePage extends Component {
             </div>
           </div>
           <div className="box2">
-            <div onClick={() => this.props.history.push("/projects")}>
+            <div onClick={() => this.props.history.push("/about")}>
               <div className="container arrow">
                 <div className="triangle1" />
               </div>

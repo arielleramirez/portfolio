@@ -35,7 +35,6 @@ class Resume extends Component {
                 </p>
                 <h4>Worcester State University - Worcester, MA - 2014</h4>
                 <p style={{ marginBottom: 15 }}>
-                  {" "}
                   Bachelor of Science in Biology with a minor in Chemistry
                 </p>
                 <h3>TECHNICAL SKILLS</h3>
@@ -59,7 +58,6 @@ class Resume extends Component {
                   monthly.
                 </p>
                 <p>
-                  {" "}
                   + Took calls from over 50 countries around the world to
                   troubleshoot customer issues.
                 </p>
