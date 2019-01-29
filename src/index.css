@@ -75,14 +75,13 @@
   opacity: 0.5;
   cursor: pointer;
 }
-
-div h1 {
+.box1 h1 {
   font-family: "Londrina Outline", cursive;
   font-size: 10vw;
   line-height: 6vw;
   color: #ffdedc;
-  width: 40vw;
-  margin-left: -25%;
+  width: 60vw;
+  margin-right: 100%;
   padding-bottom: 20%;
 }
 
@@ -113,10 +112,11 @@ div h1 {
   }
 }
 
-div h3 {
+.box1 h3 {
   color: #f7c6c3;
   font-size: 3vw;
   width: 60vw;
+  margin-top: -20%;
 }
 
 div .container {
