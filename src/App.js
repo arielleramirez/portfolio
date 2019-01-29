@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Contact from "./Components/Contact";
+import About from "./Components/About";
 import HomePage from "./Components/HomePage";
 import Resume from "./Components/Resume";
 import Projects from "./Components/Projects";
@@ -13,7 +13,7 @@ class App extends Component {
           <Route path="/" component={HomePage} exact />
           <Route path="/resume" component={Resume} exact />
           <Route path="/projects" component={Projects} exact />
-          <Route path="/contact" component={Contact} exact />
+          <Route path="/about" component={About} exact />
 
           <Route component={Error} exact />
         </Switch>

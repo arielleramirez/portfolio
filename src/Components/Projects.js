@@ -11,7 +11,7 @@ class Projects extends Component {
             </div>
           </div>
           <div className="box4">
-            <div onClick={() => this.props.history.push("/contact")}>
+            <div onClick={() => this.props.history.push("/resume")}>
               <div className="container arrow">
                 <div className="triangle1" />
               </div>

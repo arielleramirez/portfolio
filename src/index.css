@@ -5,6 +5,8 @@
 }
 .body {
   background-color: #93939b;
+  width: 95%;
+  height: 90vh;
   margin-left: 2%;
   margin-right: 2%;
   margin-top: 3%;
@@ -67,7 +69,7 @@
   width: 4vw;
   height: 0.5vw;
   margin: 0.5vw 0;
-  background-color: #c5c5c9;
+  background-color: white;
   border-radius: 25%;
 }
 
@@ -192,6 +194,7 @@ div .container {
   text-align: center;
   line-height: 75vw;
   font-size: 30vw;
+  padding-bottom: 2%;
 }
 
 div .triangle1 {
@@ -218,13 +221,14 @@ div .triangle4 {
   opacity: 0.5;
 }
 
-div h2 {
+.box3 h2 {
   font-family: "Londrina Outline", cursive;
   font-size: 8vw;
   line-height: 6vw;
   color: #ffdedc;
-  width: 60vw;
+  width: 30vw;
   padding: 2%;
+  padding-bottom: 2%;
 }
 
 .flex-box {
@@ -232,12 +236,28 @@ div h2 {
   flex-wrap: wrap;
 }
 
-.flex-box > div {
+.flex-box div {
   background-color: #f1f1f1;
   width: 45%;
-  height: 30vh;
+  height: 40vh;
   margin: 2%;
   text-align: center;
   line-height: 15vw;
   font-size: 2vw;
+}
+
+.icons {
+  display: flex;
+  flex-wrap: none;
+  margin-left: 18%;
+}
+
+.icons div {
+  text-align: center;
+  width: 20%;
+  line-height: 1%;
+}
+
+.icons img {
+  width: 25%;
 }

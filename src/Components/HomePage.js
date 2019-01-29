@@ -1,4 +1,8 @@
 import React, { Component, Fragment } from "react";
+import instagram from "../images/instagram.png";
+import linkedin from "../images/linkedin.png";
+import github from "../images/github.png";
+import gmail from "../images/gmail.png";
 
 class HomePage extends Component {
   render() {
@@ -14,6 +18,34 @@ class HomePage extends Component {
             <div>
               <h1>Arielle Ramirez</h1>
               <h3>Full Stack Developer/Software Engineer</h3>
+              <div class="icons">
+                <div>
+                  <a
+                    href="http://www.instagram.com/ariellenramirez/"
+                    target="_blank"
+                  >
+                    <img src={instagram} />
+                  </a>
+                </div>
+                <div>
+                  <a
+                    href="http://www.linkedin.com/in/arielle-ramirez"
+                    target="_blank"
+                  >
+                    <img src={linkedin} />
+                  </a>
+                </div>
+                <div>
+                  <a href="https://github.com/arielleramirez" target="_blank">
+                    <img src={github} />
+                  </a>
+                </div>
+                <div>
+                  <a href="">
+                    <img src={gmail} />
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
           <div className="box2">

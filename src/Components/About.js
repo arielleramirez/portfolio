@@ -7,8 +7,10 @@ class Contact extends Component {
   render() {
     return (
       <Fragment>
-        <div>
-          <h2>Contact Page</h2>
+        <div className="box3">
+          <div>
+            <h2>About</h2>
+          </div>
         </div>
       </Fragment>
     );
