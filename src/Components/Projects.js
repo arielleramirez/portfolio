@@ -30,15 +30,24 @@ class Projects extends Component {
         <div className="flex-box">
           <div>
             <img src={parkit} />
-            <div className="imgdes">Parkit</div>
+            <div className="imgdes">
+              <p>Parkit</p>
+              <button id="projbtn">Learn More</button>
+            </div>
           </div>
           <div>
             <img src={guerra} />
-            <div className="imgdes1">La Guerra</div>
+            <div className="imgdes1">
+              <p>La Guerra</p>
+              <button id="projbtn">Learn More</button>
+            </div>
           </div>
           <div>
             <img src={rogue} />
-            <div className="imgdes2">Rogue Pickings</div>
+            <div className="imgdes2">
+              <p>Rogue Pickings</p>
+              <button id="projbtn">Learn More</button>
+            </div>
           </div>
         </div>
       </div>
