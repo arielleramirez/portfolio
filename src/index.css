@@ -236,6 +236,43 @@ div .triangle4 {
   flex-wrap: wrap;
   margin-left: 12%;
   margin-top: 5%;
+  position: relative;
+}
+
+.imgdes {
+  background-color: white;
+  position: absolute;
+  right: 71%;
+  top: 0;
+  visibility: hidden;
+  color: white;
+}
+.flex-box div:hover .imgdes {
+  visibility: visible;
+}
+
+.imgdes1 {
+  position: absolute;
+  left: 29%;
+  top: 0;
+  visibility: hidden;
+  color: white;
+}
+
+.flex-box div:hover .imgdes1 {
+  visibility: visible;
+}
+.imgdes2 {
+  position: absolute;
+  left: 58%;
+  top: 0;
+  visibility: hidden;
+  border: 1px solid #fff7f7;
+  color: white;
+}
+
+.flex-box div:hover .imgdes2 {
+  visibility: visible;
 }
 
 .flex-box div {

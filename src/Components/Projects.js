@@ -27,15 +27,18 @@ class Projects extends Component {
           </div>
         </div>
 
-        <div class="flex-box">
+        <div className="flex-box">
           <div>
             <img src={parkit} />
+            <div className="imgdes">Parkit</div>
           </div>
           <div>
             <img src={guerra} />
+            <div className="imgdes1">La Guerra</div>
           </div>
           <div>
             <img src={rogue} />
+            <div className="imgdes2">Rogue Pickings</div>
           </div>
         </div>
       </div>
