@@ -1,4 +1,7 @@
 import React, { Component } from "react";
+import parkit from "../images/parkitimg.png";
+import guerra from "../images/guerra.png";
+import rogue from "../images/rogueimg.png";
 
 class Projects extends Component {
   render() {
@@ -25,14 +28,15 @@ class Projects extends Component {
         </div>
 
         <div class="flex-box">
-          <div>1</div>
-          <div>2</div>
-          <div>3</div>
-          <div>4</div>
-          <div>5</div>
-          <div>6</div>
-          <div>7</div>
-          <div>8</div>
+          <div>
+            <img src={parkit} />
+          </div>
+          <div>
+            <img src={guerra} />
+          </div>
+          <div>
+            <img src={rogue} />
+          </div>
         </div>
       </div>
     );

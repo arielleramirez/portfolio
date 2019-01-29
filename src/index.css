@@ -234,16 +234,24 @@ div .triangle4 {
 .flex-box {
   display: flex;
   flex-wrap: wrap;
+  margin-left: 12%;
+  margin-top: 5%;
 }
 
 .flex-box div {
-  background-color: #f1f1f1;
-  width: 45%;
-  height: 40vh;
+  background-color: #fff7f7;
+  /* background-color: #b9b9bf; */
+  width: 25%;
+  height: 35vh;
   margin: 2%;
   text-align: center;
   line-height: 15vw;
   font-size: 2vw;
+}
+
+.flex-box img {
+  width: 50%;
+  padding-top: 15%;
 }
 
 .icons {
