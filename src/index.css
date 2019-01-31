@@ -371,14 +371,22 @@ div .triangle3 {
 
 @media screen and (max-width: 640px) {
   .body {
-    height: 30vh;
+    height: 100vh;
+  }
+
+  .box1 {
+    margin-top: 50%;
   }
 
   .flex-box {
-    height: 30vh;
+    height: 205vh;
+    padding: 0;
   }
 
   .flex-box div {
-    height: 10vh;
+    width: 100%;
+    height: 50vh;
+    margin: 0;
+    padding: 0;
   }
 }

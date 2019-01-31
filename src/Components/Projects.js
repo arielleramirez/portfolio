@@ -127,7 +127,7 @@ class Projects extends Component {
         <div
           className=" flex-box"
           style={{
-            border: "4px solid #fff7f7",
+            border: "4px solid #f7c6c3",
             backgroundColor: "white"
           }}
         >
