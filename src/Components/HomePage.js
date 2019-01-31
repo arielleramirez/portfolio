@@ -3,6 +3,8 @@ import instagram from "../images/instagram.png";
 import linkedin from "../images/linkedin.png";
 import github from "../images/github.png";
 import gmail from "../images/gmail.png";
+import Projects from "../Components/Projects";
+import About from "../Components/About";
 
 class HomePage extends Component {
   render() {
@@ -48,22 +50,26 @@ class HomePage extends Component {
               </div>
             </div>
           </div>
-          <div className="box2">
-            <div onClick={() => this.props.history.push("/about")}>
-              <div className="container arrow">
-                <div className="triangle1" />
-              </div>
-              <div>
-                <div className="container arrow">
-                  <div className="triangle2" />
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
+        <About />
+        <Projects />
       </Fragment>
     );
   }
 }
 
 export default HomePage;
+
+//   <div className="box2">
+//     <div onClick={() => this.props.history.push("/about")}>
+//       <div className="container arrow">
+//         <div className="triangle1" />
+//       </div>
+//       <div>
+//         <div className="container arrow">
+//           <div className="triangle2" />
+//         </div>
+//       </div>
+//     </div>
+//   </div>
+// </div>

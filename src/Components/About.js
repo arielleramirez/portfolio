@@ -57,18 +57,6 @@ class About extends Component {
               </h3>
             </div>
           </div>
-          <div className="box2">
-            <div onClick={() => this.props.history.push("/projects")}>
-              <div className="container arrow">
-                <div className="triangle1" />
-              </div>
-              <div>
-                <div className="container arrow">
-                  <div className="triangle2" />
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
       </Fragment>
     );
@@ -76,3 +64,16 @@ class About extends Component {
 }
 
 export default About;
+
+// <div className="box2">
+//   <div onClick={() => this.props.history.push("/projects")}>
+//     <div className="container arrow">
+//       <div className="triangle1" />
+//     </div>
+//     <div>
+//       <div className="container arrow">
+//         <div className="triangle2" />
+//       </div>
+//     </div>
+//   </div>
+// </div>

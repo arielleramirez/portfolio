@@ -124,27 +124,13 @@ class Projects extends Component {
 
     return (
       <Fragment>
-        <div className="flex-container">
-          <div className="box3">
-            <div>
-              <h2>Portfolio</h2>
-            </div>
-          </div>
-          <div className="box4">
-            <div onClick={() => this.props.history.push("/")}>
-              <div className="container arrow">
-                <div className="triangle1" />
-              </div>
-              <div>
-                <div className="container arrow">
-                  <div className="triangle2" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="flex-box">
+        <div
+          className=" flex-box"
+          style={{
+            border: "4px solid #fff7f7",
+            backgroundColor: "white"
+          }}
+        >
           <div>
             <img src={parkit} />
             <div className="imgdes">
@@ -387,3 +373,23 @@ class Projects extends Component {
 }
 
 export default Projects;
+
+// <div className="flex-container">
+//   <div className="box3">
+//     <div>
+//       <h2>Portfolio</h2>
+//     </div>
+//   </div>
+//   <div className="box4">
+//     <div onClick={() => this.props.history.push("/")}>
+//       <div className="container arrow">
+//         <div className="triangle1" />
+//       </div>
+//       <div>
+//         <div className="container arrow">
+//           <div className="triangle2" />
+//         </div>
+//       </div>
+//     </div>
+//   </div>
+// </div>

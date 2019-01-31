@@ -21,11 +21,10 @@
   animation-fill-mode: forwards;
   position: relative;
   width: 60vw;
-  margin-left: -95%;
-  margin-top: 5%;
+  margin-left: -85%;
 }
 
-.box2 {
+/* .box2 {
   animation: arrow;
   animation-duration: 2s;
   animation-fill-mode: forwards;
@@ -33,9 +32,9 @@
   width: 30vw;
   margin-right: 250%;
   margin-top: 5%;
-}
+} */
 
-.box3 {
+/* .box3 {
   animation: heading;
   animation-duration: 2s;
   animation-fill-mode: forwards;
@@ -43,9 +42,9 @@
   width: 30vw;
   margin-left: 5%;
   margin-top: 5%;
-}
+} */
 
-.box4 {
+/* .box4 {
   animation: arrow;
   animation-duration: 2s;
   animation-fill-mode: forwards;
@@ -53,7 +52,7 @@
   width: 30vw;
   margin-right: 250%;
   margin-top: 3.5%;
-}
+} */
 
 .hamburger {
   margin-left: 93%;
@@ -95,7 +94,7 @@
     top: 1%;
   }
 }
-
+/*
 @keyframes arrow {
   0% {
     right: -500px;
@@ -103,7 +102,7 @@
   100% {
     right: 1%;
   }
-}
+} */
 
 @keyframes hamburger {
   0% {
@@ -125,7 +124,7 @@ div .container {
   border-top: 4px solid transparent;
 }
 
-.triangle1 {
+/* .triangle1 {
   margin: 0;
   left: 0;
   right: 0;
@@ -183,7 +182,7 @@ div .container {
   -ms-transform: rotate(315deg);
   border-right: 5px solid #a9b7af;
   border-bottom: 5px solid #a9b7af;
-}
+} */
 
 .flex-container {
   display: flex;
@@ -197,7 +196,7 @@ div .container {
   padding-bottom: 2%;
 }
 
-div .triangle1 {
+/* div .triangle1 {
   margin-left: -50%;
 }
 
@@ -207,21 +206,21 @@ div .triangle2 {
 
 div .triangle3 {
   margin-left: 30%;
-}
+} */
 
-div .triangle4 {
+/* div .triangle4 {
   margin-left: 20%;
-}
+} */
 
-.arrow {
+/* .arrow {
   opacity: 1;
   cursor: pointer;
 }
 .arrow:hover {
   opacity: 0.5;
-}
+} */
 
-.box3 h2 {
+/* .box3 h2 {
   font-family: "Londrina Outline", cursive;
   font-size: 8vw;
   line-height: 6vw;
@@ -229,14 +228,15 @@ div .triangle4 {
   width: 30vw;
   padding: 2%;
   padding-bottom: 2%;
-}
+} */
 
 .flex-box {
   display: flex;
   flex-wrap: wrap;
-  margin-left: 12%;
-  margin-top: 5%;
   position: relative;
+  margin-left: 2%;
+  margin-right: 3%;
+  margin-bottom: 3%;
 }
 
 .imgdes {
@@ -247,7 +247,6 @@ div .triangle4 {
   visibility: hidden;
   color: #ffdedc;
   font-family: "Londrina Outline", cursive;
-  padding-top: 3%;
 }
 .flex-box div:hover .imgdes {
   visibility: visible;
@@ -372,6 +371,14 @@ div .triangle4 {
 
 @media screen and (max-width: 640px) {
   .body {
-    height: 35vh;
+    height: 30vh;
+  }
+
+  .flex-box {
+    height: 30vh;
+  }
+
+  .flex-box div {
+    height: 10vh;
   }
 }
