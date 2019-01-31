@@ -124,6 +124,16 @@ div .container {
   border-top: 4px solid transparent;
 }
 
+div h5 {
+  color: #ffdedc;
+  font-size: 1vw;
+  padding-left: 10px;
+}
+
+div h5 img {
+  width: 15px;
+}
+
 /* .triangle1 {
   margin: 0;
   left: 0;

@@ -9,6 +9,7 @@ import tetris from "../images/tetris.png";
 import tetris1 from "../images/tetris1.png";
 import tetris2 from "../images/tetris2.png";
 import tetris3 from "../images/tetris3.png";
+import heart from "../images/heart.png";
 
 import { UncontrolledCarousel } from "reactstrap";
 import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from "reactstrap";
@@ -367,8 +368,11 @@ class Projects extends Component {
             </button>
           </ModalFooter>
         </Modal>
-
-        <h5>Made by Arielle Ramirez</h5>
+        <div>
+          <h5>
+            Made with <img src={heart} /> by Arielle Ramirez{" "}
+          </h5>
+        </div>
       </Fragment>
     );
   }
