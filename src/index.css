@@ -291,6 +291,19 @@ div .triangle4 {
   visibility: visible;
 }
 
+.imgdes3 {
+  position: absolute;
+  right: 71%;
+  top: 50%;
+  visibility: hidden;
+  color: #ffdedc;
+  font-family: "Londrina Outline", cursive;
+  padding-top: 3%;
+}
+
+.flex-box div:hover .imgdes3 {
+  visibility: visible;
+}
 .flex-box div {
   background-color: #fff7f7;
   /* background-color: #b9b9bf; */
