@@ -378,6 +378,22 @@ div .triangle3 {
     margin-top: 50%;
   }
 
+  .box1 h1 {
+    font-size: 15vw;
+    width: 100vw;
+    margin-left: -60px;
+    line-height: 25px;
+  }
+
+  .box1 h3 {
+    font-size: 5vw;
+    width: 100vw;
+    margin-left: -60px;
+  }
+
+  .icons img {
+    width: 50%;
+  }
   .flex-box {
     height: 205vh;
     padding: 0;

@@ -367,6 +367,8 @@ class Projects extends Component {
             </button>
           </ModalFooter>
         </Modal>
+
+        <h5>Made by Arielle Ramirez</h5>
       </Fragment>
     );
   }
