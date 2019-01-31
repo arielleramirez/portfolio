@@ -371,7 +371,7 @@ div .triangle3 {
 
 @media screen and (max-width: 640px) {
   .body {
-    height: 100vh;
+    height: 90vh;
   }
 
   .box1 {
@@ -386,7 +386,55 @@ div .triangle3 {
   .flex-box div {
     width: 100%;
     height: 50vh;
-    margin: 0;
-    padding: 0;
+    margin: 0 4px;
+  }
+
+  .imgdes {
+    right: -1.5%;
+    height: 50vh;
+  }
+
+  .imgdes p {
+    font-size: 15vw;
+    margin-top: 25%;
+  }
+
+  .imgdes1 {
+    left: -1.5%;
+    height: 50vh;
+    top: 25%;
+  }
+
+  .imgdes1 p {
+    font-size: 15vw;
+    margin-top: 25%;
+  }
+
+  .imgdes2 {
+    left: -1.5%;
+    height: 50vh;
+    top: 50%;
+  }
+
+  .imgdes2 p {
+    font-size: 15vw;
+    margin-top: 25%;
+  }
+
+  .imgdes3 {
+    left: -1.5%;
+    height: 50vh;
+    top: 75%;
+  }
+
+  .imgdes3 p {
+    font-size: 15vw;
+    margin-top: 25%;
+  }
+
+  #projbtn {
+    font-size: 5vw;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
