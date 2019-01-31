@@ -335,18 +335,6 @@ div .triangle4 {
   margin: 0;
 }
 
-#modheader h3 {
-  font-size: 3vw;
-}
-
-#modheader p {
-  font-size: 11px;
-}
-
-#modheader h3 {
-  font-size: 3vw;
-}
-
 .modimg {
   width: 100%;
 }
@@ -360,4 +348,9 @@ div .triangle4 {
 
 .link {
   color: #ffdedc;
+}
+
+.link:hover {
+  color: #ffdedc;
+  text-decoration: none;
 }
