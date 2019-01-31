@@ -162,10 +162,77 @@ class Projects extends Component {
               <UncontrolledCarousel items={project3} />
             ) : null}
           </ModalBody>
-          <ModalHeader className="modheader">
-            {this.state.park ? <h3>ParkIt.</h3> : null}
-            {this.state.guerra ? <h3>La Guerra</h3> : null}
-            {this.state.rogue ? <h3>Rogue Pickings</h3> : null}
+          <ModalHeader id="modheader">
+            {this.state.park ? (
+              <h3 style={{ fontSize: 45, lineHeight: 1 }}>ParkIt.</h3>
+            ) : null}
+            {this.state.park ? (
+              <p
+                style={{
+                  fontSize: 10,
+                  lineHeight: 0.5,
+                  marginLeft: 2,
+                  fontStyle: "italic"
+                }}
+              >
+                Find parking near you
+              </p>
+            ) : null}
+            {this.state.park ? (
+              <h4 style={{ fontSize: 12, fontWeight: "normal" }}>
+                ParkIt. provides oppertunity to resserve parking on the go.
+                <br />
+                <b>Technologies Used:</b> Ruby on Rails, JavaScript, React.js
+                and Leaflet
+              </h4>
+            ) : null}
+
+            {this.state.guerra ? (
+              <h3 style={{ fontSize: 45 }}>La Guerra</h3>
+            ) : null}
+            {this.state.guerra ? (
+              <p
+                style={{
+                  fontSize: 10,
+                  lineHeight: 0.5,
+                  marginLeft: 2,
+                  fontStyle: "italic"
+                }}
+              >
+                Find parking near you
+              </p>
+            ) : null}
+            {this.state.guerra ? (
+              <h4 style={{ fontSize: 12, fontWeight: "normal" }}>
+                La Guerra is a website that showcases the Documentary of an
+                undocumented family from Mexico.
+                <br />
+                <b> Technologies Used:</b> JavaScript and React.js
+              </h4>
+            ) : null}
+
+            {this.state.rogue ? (
+              <h3 style={{ fontSize: 45 }}>Rogue Pickings</h3>
+            ) : null}
+            {this.state.rogue ? (
+              <p
+                style={{
+                  fontSize: 10,
+                  lineHeight: 0.5,
+                  marginLeft: 2,
+                  fontStyle: "italic"
+                }}
+              >
+                Find parking near you
+              </p>
+            ) : null}
+            {this.state.rogue ? (
+              <h4 style={{ fontSize: 12, fontWeight: "normal" }}>
+                Rogue Pickings provides the oppertunity to browse fresh
+                vegetables and local mart. <br />
+                <b>Technologies Used:</b> JavaScript and React.js
+              </h4>
+            ) : null}
           </ModalHeader>
           <ModalFooter>
             <button id="projbtn">

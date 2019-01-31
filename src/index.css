@@ -330,9 +330,21 @@ div .triangle4 {
   margin-right: 200%;
 }
 
-.modheader {
+#modheader {
   color: #ffdedc;
   margin: 0;
+}
+
+#modheader h3 {
+  font-size: 3vw;
+}
+
+#modheader p {
+  font-size: 11px;
+}
+
+#modheader h3 {
+  font-size: 3vw;
 }
 
 .modimg {
