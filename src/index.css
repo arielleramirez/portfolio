@@ -134,66 +134,6 @@ div h5 img {
   width: 15px;
 }
 
-/* .triangle1 {
-  margin: 0;
-  left: 0;
-  right: 0;
-  width: 5vw;
-  height: 5vw;
-  transform: rotate(315deg);
-  -webkit-transform: rotate(315deg);
-  -moz-transform: rotate(315deg);
-  -o-transform: rotate(315deg);
-  -ms-transform: rotate(315deg);
-  border-right: 5px solid #c7d2c7;
-  border-bottom: 5px solid #c7d2c7;
-}
-
-.triangle2 {
-  margin: 0;
-  left: 0;
-  right: 0;
-  width: 5vw;
-  height: 5vw;
-  transform: rotate(315deg);
-  -webkit-transform: rotate(315deg);
-  -moz-transform: rotate(315deg);
-  -o-transform: rotate(315deg);
-  -ms-transform: rotate(315deg);
-  border-right: 5px solid #a9b7af;
-  border-bottom: 5px solid #a9b7af;
-}
-
-.triangle3 {
-  margin: 0;
-  left: 0;
-  right: 0;
-  width: 5vw;
-  height: 5vw;
-  transform: rotate(315deg);
-  -webkit-transform: rotate(315deg);
-  -moz-transform: rotate(315deg);
-  -o-transform: rotate(315deg);
-  -ms-transform: rotate(315deg);
-  border-right: 5px solid #c7d2c7;
-  border-bottom: 5px solid #c7d2c7;
-}
-
-.triangle4 {
-  margin: 0;
-  left: 0;
-  right: 0;
-  width: 5vw;
-  height: 5vw;
-  transform: rotate(315deg);
-  -webkit-transform: rotate(315deg);
-  -moz-transform: rotate(315deg);
-  -o-transform: rotate(315deg);
-  -ms-transform: rotate(315deg);
-  border-right: 5px solid #a9b7af;
-  border-bottom: 5px solid #a9b7af;
-} */
-
 .flex-container {
   display: flex;
   flex-wrap: nowrap;
@@ -205,40 +145,6 @@ div h5 img {
   font-size: 30vw;
   padding-bottom: 2%;
 }
-
-/* div .triangle1 {
-  margin-left: -50%;
-}
-
-div .triangle2 {
-  margin-left: 20%;
-}
-
-div .triangle3 {
-  margin-left: 30%;
-} */
-
-/* div .triangle4 {
-  margin-left: 20%;
-} */
-
-/* .arrow {
-  opacity: 1;
-  cursor: pointer;
-}
-.arrow:hover {
-  opacity: 0.5;
-} */
-
-/* .box3 h2 {
-  font-family: "Londrina Outline", cursive;
-  font-size: 8vw;
-  line-height: 6vw;
-  color: #ffdedc;
-  width: 30vw;
-  padding: 2%;
-  padding-bottom: 2%;
-} */
 
 .flex-box {
   display: flex;
@@ -391,14 +297,14 @@ div .triangle3 {
   .box1 h1 {
     font-size: 15vw;
     width: 100vw;
-    margin-left: -65px;
+    margin-left: -62px;
     line-height: 25px;
   }
 
   .box1 h3 {
     font-size: 5vw;
     width: 100vw;
-    margin-left: -65px;
+    margin-left: -62px;
   }
 
   .icons img {
