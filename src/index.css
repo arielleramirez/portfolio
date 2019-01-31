@@ -329,3 +329,23 @@ div .triangle4 {
   margin-top: -125%;
   margin-right: 200%;
 }
+
+.modheader {
+  color: #ffdedc;
+  margin: 0;
+}
+
+.modimg {
+  width: 100%;
+}
+.modal-body {
+  padding: 0;
+}
+
+#modal {
+  padding: 0;
+}
+
+.link {
+  color: #ffdedc;
+}

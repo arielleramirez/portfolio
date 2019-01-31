@@ -51,7 +51,10 @@ class About extends Component {
           <div className="box1">
             <div>
               <h1>About Me</h1>
-              <h3>Hi, my name is Arielle. </h3>
+              <h3>
+                Hi, my name is Arielle. An enthusiastic software engineer from
+                Brookline, New Hampshire.
+              </h3>
             </div>
           </div>
           <div className="box2">
