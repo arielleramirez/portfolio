@@ -327,45 +327,38 @@ class Projects extends Component {
                 </a>
               ) : null}
             </button>
-            <button id="projbtn">
-              {this.state.rogue ? (
-                <a
-                  href="https://rougepickings.herokuapp.com/index.html"
-                  className="link"
-                  target="_blank"
-                >
-                  View Site
-                </a>
-              ) : null}
-              {this.state.park ? (
-                <a
-                  href="https://rougepickings.herokuapp.com/index.html"
-                  className="link"
-                  target="_blank"
-                >
-                  View Site
-                </a>
-              ) : null}
-              {this.state.guerra ? (
-                <a
-                  href="https://rougepickings.herokuapp.com/index.html"
-                  className="link"
-                  target="_blank"
-                >
-                  View Site
-                </a>
-              ) : null}
+            {this.state.park ? null : (
+              <button id="projbtn">
+                {this.state.rogue ? (
+                  <a
+                    href="https://rougepickings.herokuapp.com/index.html"
+                    className="link"
+                    target="_blank"
+                  >
+                    View Site
+                  </a>
+                ) : null}
+                {this.state.guerra ? (
+                  <a
+                    href="https://rougepickings.herokuapp.com/index.html"
+                    className="link"
+                    target="_blank"
+                  >
+                    View Site
+                  </a>
+                ) : null}
 
-              {this.state.tetris ? (
-                <a
-                  href="https://rougepickings.herokuapp.com/index.html"
-                  className="link"
-                  target="_blank"
-                >
-                  View Site
-                </a>
-              ) : null}
-            </button>
+                {this.state.tetris ? (
+                  <a
+                    href="https://rougepickings.herokuapp.com/index.html"
+                    className="link"
+                    target="_blank"
+                  >
+                    View Site
+                  </a>
+                ) : null}
+              </button>
+            )}
           </ModalFooter>
         </Modal>
         <div>
