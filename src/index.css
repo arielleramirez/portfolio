@@ -48,7 +48,7 @@
   font-family: "Londrina Outline", cursive;
   font-size: 10vw;
   line-height: 6vw;
-  color: #ffdedc;
+  color: #f7c6c3;
   width: 60vw;
   margin-right: 100%;
   padding-bottom: 20%;
@@ -71,7 +71,7 @@
 }
 
 .box2 h3 {
-  color: #f7c6c3;
+  color: #ffdedc;
   font-size: 3vw;
   width: 60vw;
   margin-top: -20%;
@@ -262,6 +262,10 @@ div h5 img {
     font-size: 5vw;
     width: 100vw;
     margin-left: -70px;
+  }
+
+  .box2 h1 {
+    color: #863a58;
   }
 
   .icons img {
