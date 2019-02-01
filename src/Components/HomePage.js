@@ -11,16 +11,11 @@ class HomePage extends Component {
     return (
       <Fragment>
         <div className="body flex-container">
-          <div className="hamburger">
-            <div />
-            <div />
-            <div />
-          </div>
           <div className="box1">
             <div>
               <h1>Arielle Ramirez</h1>
               <h3>Full Stack Developer/Software Engineer</h3>
-              <div class="icons">
+              <div className="icons">
                 <div>
                   <a
                     href="http://www.instagram.com/ariellenramirez/"

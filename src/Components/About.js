@@ -43,12 +43,7 @@ class About extends Component {
             //   width: 470
           }}
         >
-          <div className="hamburger">
-            <div style={{ backgroundColor: "#f7c6c3" }} />
-            <div style={{ backgroundColor: "#f7c6c3" }} />
-            <div style={{ backgroundColor: "#f7c6c3" }} />
-          </div>
-          <div className="box1">
+          <div className="box2">
             <div>
               <h1>About Me</h1>
               <h3>
