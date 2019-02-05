@@ -38,13 +38,13 @@ const project2 = [
 
 const project3 = [
   {
-    src: require("../images/parkit.png")
-  },
-  {
-    src: require("../images/rogue.png")
-  },
-  {
     src: require("../images/erinsport.png")
+  },
+  {
+    src: require("../images/movie.png")
+  },
+  {
+    src: require("../images/about.png")
   }
 ];
 
