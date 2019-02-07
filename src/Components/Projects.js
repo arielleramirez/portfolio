@@ -16,13 +16,22 @@ import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from "reactstrap";
 
 const project1 = [
   {
-    src: require("../images/parkit.png")
+    src: require("../images/parkit1.png")
   },
   {
-    src: require("../images/rogue.png")
+    src: require("../images/parkit2.png")
   },
   {
-    src: require("../images/erinsport.png")
+    src: require("../images/parkit3.png")
+  },
+  {
+    src: require("../images/parkit4.png")
+  },
+  {
+    src: require("../images/parkit5.png")
+  },
+  {
+    src: require("../images/parkit6.png")
   }
 ];
 
