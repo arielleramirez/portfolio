@@ -25,9 +25,6 @@ const project1 = [
     src: require("../images/parkit3.png")
   },
   {
-    src: require("../images/parkit4.png")
-  },
-  {
     src: require("../images/parkit5.png")
   },
   {
