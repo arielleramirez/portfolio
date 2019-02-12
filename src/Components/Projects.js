@@ -32,16 +32,6 @@ const project1 = [
   }
 ];
 
-const project2 = [
-  { src: require("../images/rogue.png") },
-  {
-    src: require("../images/map.png")
-  },
-  {
-    src: require("../images/radishes.png")
-  }
-];
-
 const project3 = [
   {
     src: require("../images/erinsport.png")
@@ -51,6 +41,16 @@ const project3 = [
   },
   {
     src: require("../images/about.png")
+  }
+];
+
+const project2 = [
+  { src: require("../images/rogue.png") },
+  {
+    src: require("../images/map.png")
+  },
+  {
+    src: require("../images/radishes.png")
   }
 ];
 
@@ -369,7 +369,7 @@ class Projects extends Component {
         </Modal>
         <div>
           <h5>
-            Made with <img src={heart} /> by Arielle Ramirez{" "}
+            Made with <img src={heart} /> by Arielle Ramirez
           </h5>
         </div>
       </Fragment>
