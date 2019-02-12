@@ -138,7 +138,7 @@ class Projects extends Component {
             backgroundColor: "white"
           }}
         >
-          <div>
+          <div style={{ marginLeft: 100 }}>
             <img src={parkit} />
             <div className="imgdes">
               <p>Parkit</p>
@@ -165,7 +165,7 @@ class Projects extends Component {
               </button>
             </div>
           </div>
-          <div>
+          <div style={{ marginLeft: 100 }}>
             <img src={tetris} />
             <div className="imgdes3" style={{ marginTop: "-100" }}>
               <p>Tetris</p>
@@ -367,7 +367,7 @@ class Projects extends Component {
             )}
           </ModalFooter>
         </Modal>
-        <div>
+        <div style={{ paddingBottom: 10 }}>
           <h5>
             Made with <img src={heart} /> by Arielle Ramirez
           </h5>
