@@ -115,7 +115,7 @@ div h5 img {
 .imgdes {
   background-color: white;
   position: absolute;
-  right: 71%;
+  right: 65.5%;
   top: 0;
   visibility: hidden;
   color: #ffdedc;
@@ -138,7 +138,7 @@ div h5 img {
 
 .imgdes1 {
   position: absolute;
-  left: 29%;
+  left: 34.5%;
   top: 0;
   visibility: hidden;
   color: #ffdedc;
@@ -151,7 +151,7 @@ div h5 img {
 }
 .imgdes2 {
   position: absolute;
-  left: 58%;
+  left: 63.5%;
   top: 0;
   visibility: hidden;
   color: #ffdedc;
@@ -165,7 +165,7 @@ div h5 img {
 
 .imgdes3 {
   position: absolute;
-  right: 71%;
+  right: 65.5%;
   top: 50%;
   visibility: hidden;
   color: #ffdedc;
