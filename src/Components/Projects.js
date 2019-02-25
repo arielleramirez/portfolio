@@ -130,7 +130,7 @@ class Projects extends Component {
         <div
           className=" flex-box"
           style={{
-            border: "4px solid #f7c6c3",
+            border: "4px solid #ced6d8",
             backgroundColor: "white"
           }}
         >
@@ -291,56 +291,43 @@ class Projects extends Component {
             ) : null}
           </ModalHeader>
           <ModalFooter>
-            <button id="projbtn">
-              {this.state.park ? (
-                <a
-                  href="https://www.youtube.com/watch?v=VdENh6TLo9U"
-                  className="link"
-                  target="_blank"
-                >
-                  View Demo
-                </a>
-              ) : null}
-              {this.state.rogue ? (
-                <a
-                  href="https://www.youtube.com/watch?v=h8A9WC8BS-Q"
-                  className="link"
-                  target="_blank"
-                >
-                  View Demo
-                </a>
-              ) : null}
-              {this.state.guerra ? (
-                <a
-                  href="https://www.google.com"
-                  className="link"
-                  target="_blank"
-                >
-                  View Demo
-                </a>
-              ) : null}
-              {this.state.tetris ? (
-                <a
-                  href="https://youtu.be/ez-Ewv1iGyM"
-                  className="link"
-                  target="_blank"
-                >
-                  View Demo
-                </a>
-              ) : null}
-            </button>
-            {this.state.park || this.state.tetris ? null : (
+            {this.state.guerra ? null : (
               <button id="projbtn">
-                {this.state.rogue ? (
+                {this.state.park ? (
                   <a
-                    href="https://rougepickings.herokuapp.com/index.html"
+                    href="https://www.youtube.com/watch?v=VdENh6TLo9U"
                     className="link"
                     target="_blank"
                   >
-                    View Site
+                    View Demo
                   </a>
                 ) : null}
-                {this.state.guerra ? (
+                {this.state.rogue ? (
+                  <a
+                    href="https://www.youtube.com/watch?v=h8A9WC8BS-Q"
+                    className="link"
+                    target="_blank"
+                  >
+                    View Demo
+                  </a>
+                ) : null}
+
+                {this.state.tetris ? (
+                  <a
+                    href="https://youtu.be/ez-Ewv1iGyM"
+                    className="link"
+                    target="_blank"
+                  >
+                    View Demo
+                  </a>
+                ) : null}
+              </button>
+            )}
+            {this.state.park ||
+            this.state.tetris ||
+            this.state.guerra ? null : (
+              <button id="projbtn">
+                {this.state.rogue ? (
                   <a
                     href="https://rougepickings.herokuapp.com/index.html"
                     className="link"
@@ -384,3 +371,13 @@ export default Projects;
 //     </div>
 //   </div>
 // </div>
+
+// {this.state.guerra ? (
+//   <a
+//     href="https://rougepickings.herokuapp.com/index.html"
+//     className="link"
+//     target="_blank"
+//   >
+//     View Site
+//   </a>
+// ) : null}

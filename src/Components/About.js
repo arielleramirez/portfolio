@@ -38,7 +38,7 @@ class About extends Component {
         <div
           className="body flex-container"
           style={{
-            border: "4px solid #fff7f7",
+            border: "4px solid #8d9ca8",
             backgroundColor: "white"
             //   width: 470
           }}
