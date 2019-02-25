@@ -117,10 +117,6 @@ class Projects extends Component {
   }
 
   render() {
-    console.log(this.state.park);
-    console.log(this.state.guerra);
-    console.log(this.state.tetris);
-
     const externalCloseBtn = (
       <button
         className="close"
