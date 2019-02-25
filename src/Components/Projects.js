@@ -329,7 +329,7 @@ class Projects extends Component {
                 </a>
               ) : null}
             </button>
-            {this.state.park ? null : (
+            {this.state.park || this.state.tetris ? null : (
               <button id="projbtn">
                 {this.state.rogue ? (
                   <a
@@ -341,16 +341,6 @@ class Projects extends Component {
                   </a>
                 ) : null}
                 {this.state.guerra ? (
-                  <a
-                    href="https://rougepickings.herokuapp.com/index.html"
-                    className="link"
-                    target="_blank"
-                  >
-                    View Site
-                  </a>
-                ) : null}
-
-                {this.state.tetris ? (
                   <a
                     href="https://rougepickings.herokuapp.com/index.html"
                     className="link"
