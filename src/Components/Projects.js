@@ -115,7 +115,7 @@ class Projects extends Component {
       });
     }
   }
-
+  /// this is now working again
   render() {
     const externalCloseBtn = (
       <button
