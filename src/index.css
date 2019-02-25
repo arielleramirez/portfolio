@@ -120,6 +120,7 @@ div h5 img {
   visibility: hidden;
   color: #ffdedc;
   font-family: "Londrina Outline", cursive;
+  padding-top: 3%;
 }
 .flex-box div:hover .imgdes {
   visibility: visible;
